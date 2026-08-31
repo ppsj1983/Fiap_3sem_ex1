@@ -14,7 +14,7 @@
 
 ## 📚 Dados Textuais (NLP)
 
-Para este trabalho foram selecionados 5 textos/artigos, direcionados para identificação das principais doenças cardiovasculares 
+Para este trabalho foram selecionados 6 textos/artigos, direcionados para identificação das principais doenças cardiovasculares. Os dados textuais desempenham um papel fundamental no treinamento de modelos de Inteligência Artificial, servindo como base para pesquisas e referências bibliográficas. Esse insumo direciona a IA para a análise de dados a partir da compreensão do conhecimento humano historicamente acumulado, estruturado através de métodos e processos científicos.
 
 ### *5 Doenças Cardiovasculares: Sintomas e Causas*
 
@@ -55,6 +55,14 @@ Publicação Não Identificado
 
 *Sintese:* As doenças cardiovasculares (DCV) englobam um conjunto de distúrbios que afetam o coração ou os vasos sanguíneos (veias e artérias), posicionando-se como a maior causa de mortalidade do planeta. Entre as mortes registadas por estas patologias, cerca de 85% são provocadas especificamente por enfartes e acidentes vasculares cerebrais (AVC). Adicionalmente, mais de três quartos destes óbitos ocorrem em países de baixa e média renda, e um terço afeta prematuramente indivíduos com idade inferior a 70 anos. O enfarte ocorre habitualmente quando um coágulo bloqueia o fluxo de sangue e oxigénio para o músculo cardíaco, ao passo que o AVC resulta da interrupção do suprimento sanguíneo para o cérebro, seja por obstrução ou por rutura de um vaso. A Federação lista ainda diversas outras condições associadas, tais como arritmias, insuficiência cardíaca, cardiopatias congénitas, trombose venosa profunda e a doença cardíaca reumática.
 
+### *Estatística Cardiovascular – Brasil 2020*
+<a href="https://abccardiol.org/wp-content/uploads/articles_xml/0066-782X-abc-115-03-308/0066-782X-abc-115-03-308.x98474.pdf">Fonte</a>
+
+Publicação 12/08/2020
+
+*Sintese:* O relatório Estatística Cardiovascular – Brasil 2020 revela que as doenças cardiovasculares (DCV) continuam como a principal causa de morte no país, representando 27,3% do total de óbitos em 2017. A doença isquêmica do coração (DIC) lidera a mortalidade cardiovascular com 32,1% dos casos, seguida diretamente pelo acidente vascular cerebral (AVC) com 28,2%. Embora as taxas de mortalidade padronizadas por idade tenham demonstrado uma queda expressiva de 47,9% entre 1990 e 2017, o declínio perdeu força nos últimos anos analisados, atingindo um platô. Além disso, o documento expõe severas desigualdades regionais e socioeconômicas, uma vez que a redução dos óbitos cardiovasculares foi substancialmente mais acelerada nas regiões Sul e Sudeste em comparação aos estados do Norte e Nordeste.
+
+As tabelas abaixo apresentam as principais doenças, causas e sintomas, dados organizados a partir dos artigos reunidos neste trabalho
 
 <img width="732" height="571" alt="Image" src="https://github.com/user-attachments/assets/1b36b209-bee6-4de6-9f33-fa049e11d831" />
 
