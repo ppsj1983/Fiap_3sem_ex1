@@ -7,16 +7,10 @@
 <br>
 
 # 🎓 Graduação ON em Inteligência Artificial  
-## 📚 Global Solution 1º Semestre 2026
+## 📚 Cap 1 - A Busca de Dados: Preparando o Terreno para a Inteligência Cardiológica
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/paulo-pereira-de-souza-junior-mba-msc-0b497825/">Paulo Pereira de Souza Junior</a>
-
-## 👨‍🎓 Apresentacao: 
-- <a href="https://youtu.be/6IrO9j_jJ9E">Video Apresentação - YOUTUBE</a>
-
-## 👨‍🎓 Git Hub: 
-- <a href="https://github.com/ppsj1983/GS_2026_01">GS 2026 1º Semestre</a>
 
 
 <img width="732" height="571" alt="Image" src="https://github.com/user-attachments/assets/1b36b209-bee6-4de6-9f33-fa049e11d831" />
