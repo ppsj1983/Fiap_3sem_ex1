@@ -67,3 +67,89 @@ As tabelas abaixo apresentam as principais doenças, causas e sintomas, dados or
 <img width="732" height="571" alt="Image" src="https://github.com/user-attachments/assets/1b36b209-bee6-4de6-9f33-fa049e11d831" />
 
 <img width="586" height="242" alt="Image" src="https://github.com/user-attachments/assets/de359c86-476b-4471-804c-57c674acadb4" />
+
+
+## 📚 Dados Textuais (NLP)
+https://www.kaggle.com/datasets/sintariosatya/heart-disease-dataset
+Conjunto de dados para previsão de insuficiência cardíaca (Heart Failure Prediction Dataset)
+
+31% de todas as mortes em nível mundial. Quatro em cada cinco mortes por doenças cardiovasculares (DCV) decorrem de ataques cardíacos e derrames, e um terço dessas mortes ocorre prematuramente em pessoas com menos de 70 anos. A insuficiência cardíaca é uma condição comum causada por DCVs, e este conjunto de dados contém 11 variáveis ​​que podem ser utilizadas para prever uma possível doença cardíaca.
+
+Pessoas com doença cardiovascular ou em alto risco cardiovascular (devido à presença de um ou mais fatores de risco, como hipertensão, diabetes, hiperlipidemia ou doença já estabelecida) necessitam de detecção e manejo precoces, situações nas quais um modelo de aprendizado de máquina pode ser de grande ajuda.
+
+Categorização dos Atributos para o Modelo de IA1. 
+Atributos Demográficos e Clínicos Básicos
+Age: Variável numérica contínua. É um dos fatores de risco biológicos mais importantes no desenvolvimento de complicações cardíacas.
+Sex: Variável categórica nominal (M/F). Requer codificação binária (ex: M=1, F=0) para processamento algorítmico.
+
+2. Indicadores Clínicos Orais e de Exame Físico
+RestingBP: Variável numérica contínua. Mede a pressão arterial em repouso (mm Hg). Valores extremos auxiliam na deteção de hipertensão.
+Cholesterol: Variável numérica contínua. Níveis elevados de colesterol sérico estão diretamente ligados à obstrução arterial (aterosclerose).
+FastingBS: Variável categórica binária (0 ou 1). Funciona como um indicador precoce de quadros de diabetes ou pré-diabetes (glicemia em jejum > 120 mg/dl).
+
+3. Sintomatologia e Dados de Exame Cardíaco 
+ProtetorChestPainType: Variável categórica nominal com 4 classes (TA, ATA, NAP, ASY). Deve ser convertida através de técnicas como One-Hot Encoding. Pacientes assintomáticos (ASY) muitas vezes representam um desafio preditivo maior.
+MaxHR: Variável numérica contínua (60 a 202). Avalia a capacidade e a resposta cronotrópica máxima do coração.
+ExerciseAngina: Variável categórica binária (Y/N). Indica se o esforço físico induz dor no peito devido à falta de oxigénio no miocárdio.
+RestingECG: Variável categórica nominal (Normal, ST, LVH). Mapeia anomalias elétricas em repouso e hipertrofias ventriculares.
+Oldpeak: Variável numérica contínua. Mede a depressão do segmento ST induzida pelo exercício em comparação com o repouso, sendo um forte indicador de isquemia miocárdica.
+ST_Slope: Variável categórica ordinal/nominal (Up, Flat, Down). Descreve a inclinação do segmento ST no pico do esforço físico, crucial para identificar o grau de severidade da doença arterial coronariana.
+
+4. Variável Alvo (Label)
+0HeartDisease: Classe de saída binária (1 para presença de doença cardíaca, 0 para estado normal). É o alvo que o modelo tentará prever a partir das variáveis anteriores.
+
+Final dataset: 918 observations
+
+
+
+Conjunto de dados sobre doenças cardiovasculares (Cardiovascular Disease dataset)
+
+Existem três tipos de dados de entrada:
+
+Objetivos: informações factuais;
+Exame: resultados de exames médicos;
+Subjetivos: informações fornecidas pelo paciente.
+
+Estrutura dos Dados
+Age: Idade do paciente avaliada em dias.
+Height: Altura medida em centímetros.
+Weight: Peso medido em quilogramas.
+Gender: Género codificado de forma categórica (geralmente 1 para mulheres e 2 para homens, ou vice-versa, dependendo da versão).
+Ap_hi: Pressão arterial sistólica (o valor mais alto durante o batimento cardíaco).
+Ap_lo: Pressão arterial diastólica (o valor mais baixo entre os batimentos cardíacos).
+Cholesterol: Níveis de colesterol divididos em três categorias ordinais (1, 2 ou 3).
+Gluc: Níveis de glicose divididos em três categorias ordinais (1, 2 ou 3).
+Smoke: Indica se o paciente fuma (1) ou não (0).
+Alco: Indica se o paciente consome bebidas alcoólicas (1) ou não (0).
+Active: Indica se o paciente pratica atividade física (1) ou não (0).
+Cardio: A variável alvo que indica a presença (1) ou ausência (0) de doença cardiovascular.
+
+
+Final dataset: 70.000 observations
+
+Conjunto de dados sobre doenças cardíacas (Heart Disease Dataset)
+
+Este conjunto de dados é uma versão estendida do UCI Heart Disease Dataset, enriquecida com dados sintéticos gerados por meio de técnicas inspiradas no SMOTE. Ele contém informações clínicas de 1.025 pacientes (uma combinação de dados originais e sintéticos) utilizadas para prever a presença de doença cardíaca.
+
+
+Dados do Paciente
+age: Idade (em anos).sex: Género (1 = Homem, 0 = Mulher).
+🩺 Exames Básicos
+trestbps: Pressão arterial em repouso.
+chol: Nível de colesterol.fbs: Açúcar no sangue alto (1 = Sim, 0 = Não).
+
+🏃 Sintomas e Esforço
+cp: Tipo de dor no peito (valores de 1 a 4).
+exang: Dor no peito causada por exercício (1 = Sim, 0 = Não).
+thalach: Batimento cardíaco máximo atingido.
+
+🔬 Exames do Coração
+restecg: Resultado do eletrocardiograma em repouso.
+oldpeak: Sinal de stress cardíaco no eletrocardiograma durante o exercício.
+slope: Tipo de inclinação do sinal cardíaco no esforço.
+ca: Número de vasos sanguíneos principais obstruídos (0 a 3).
+thal: Tipo de problema no sangue (Talassémia).
+
+🎯 Diagnóstico (Alvo)
+num: Gravidade da doença cardíaca (0 = Saudável, 1 a 4 = Níveis de doença).
+target_binary: Estado final (0 = Saudável, 1 = Com doença cardíaca).
