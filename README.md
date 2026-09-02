@@ -69,7 +69,7 @@ As tabelas abaixo apresentam as principais doenças, causas e sintomas, dados or
 <img width="586" height="242" alt="Image" src="https://github.com/user-attachments/assets/de359c86-476b-4471-804c-57c674acadb4" />
 
 
-## 📚 Dados Textuais (NLP)
+## 📚 Dados Numéricos (IoT)
 
 ### *Conjunto de dados para previsão de insuficiência cardíaca (Heart Failure Prediction Dataset)*
 
