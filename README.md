@@ -11,6 +11,8 @@
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/paulo-pereira-de-souza-junior-mba-msc-0b497825/">Paulo Pereira de Souza Junior</a>
+## 📚  Objetivo
+
 
 ## 📚 Dados Textuais (NLP)
 
@@ -151,9 +153,28 @@ Este conjunto de dados é uma versão estendida do UCI Heart Disease Dataset, en
 - *exang:* Dor no peito causada por exercício (1 = Sim, 0 = Não). 
 - *thalach:* Batimento cardíaco máximo atingido. 
 - *restecg:* Resultado do eletrocardiograma em repouso. 
-- *oldpeak:* Sinal de stress cardíaco no eletrocardiograma durante o exercício. 
+- *oldpeak:* Sinal de stress cardíaco no eletrocardiograma durante o exercício.
+
+ Dados Visuais (VC)
 - *slope:* Tipo de inclinação do sinal cardíaco no esforço. 
 - *ca:* Número de vasos sanguíneos principais obstruídos (0 a 3). 
 - *thal:* Tipo de problema no sangue (Talassémia). 
 - *num:* Gravidade da doença cardíaca (0 = Saudável, 1 a 4 = Níveis de doença).
 - *target_binary:* Estado final (0 = Saudável, 1 = Com doença cardíaca). 
+
+
+## 📚  Dados Visuais (VC)
+
+O uso de imagens de exames cardiológicos é fundamental para o sucesso do seu trabalho de Inteligência Artificial. Abaixo está a síntese dos textos fornecidos e a justificativa técnica da importância desse conteúdo para o seu projeto. Síntese dos Textos
+
+### Automated Cardiac Diagnosis Challenge (Desafio MICCAI 2017): 
+<a href="https://www.creatis.insa-lyon.fr/Challenge/acdc/index.html">Fonte</a>
+
+Aborda o encerramento de um desafio focado em segmentação automática do coração (endocárdio e epicárdio do ventrículo esquerdo e endocárdio do ventrículo direito) nas fases diastólica e sistólica. O projeto também avaliou a classificação automática dos exames em cinco categorias diagnósticas (normal, enfarte, cardiomiopatia dilatada, cardiomiopatia hipertrófica e ventrículo direito anormal). O conjunto de dados de Ressonância Magnética (MRI) cardíaca gerado permanece público e destaca-se como o maior dataset totalmente anotado da área, essencial para suprir a alta demanda de algoritmos de Deep Learning.
+
+### Conjunto de dados de TC e RM cardíacas (Heart CT & MRI Dataset):
+- Conjunto de dados simulado de imagens cardíacas de 150 pacientes para pesquisa em aprendizado de máquina multimodal
+
+<a href="https://www.kaggle.com/datasets/ziya07/heart-ct-and-mri-dataset">Fonte</a>
+
+Apresenta o Multi-Modal Heart CT & MRI Dataset, uma simulação estruturada e pronta para pesquisa do dataset original COROSCAN. Ele contém mais de 20.000 ficheiros DICOM anonymizados que cobrem 150 pacientes, integrando Tomografia Computadorizada (CT) e Ressonância Magnética (MRI) de forma sintética/estruturada para o desenvolvimento de modelos de Aprendizagem Automática.
