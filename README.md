@@ -15,7 +15,7 @@
 
 Desenvolvimento de uma aplicação de Inteligência Artificial multimodal (imagens, dados estruturados e texto) voltada ao diagnóstico de cardiopatias. O sistema visa não apenas identificar patologias cardiovasculares preexistentes, mas também realizar a modelagem preditiva de eventos cardíacos futuros
 
-A seguir detalhamento da estrutura de informação considerando utilização de Dados Textuais (NLP), Dados Numéricos (IoT) e Dados Visuais (VC)
+A seguir detalhamento da estrutura de informação considerando utilização de Dados Textuais (NLP), Dados Numéricos (IoT) e Dados Visuais (VC).
 
 ## 📚 Dados Textuais (NLP)
 
