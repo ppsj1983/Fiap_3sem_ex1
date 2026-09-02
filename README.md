@@ -91,7 +91,7 @@ Estruturalmente a combinação dos 3 data frames fornece agrupamento de 4 tipos 
 
 ### *Conjunto de dados para previsão de insuficiência cardíaca (Heart Failure Prediction Dataset)*
 
-<a href="https://www.kaggle.com/datasets/sintariosatya/heart-disease-dataset">Fonte</a>
+<a href="https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction">Fonte</a>
 
 *Final dataset: 1190 observations*
 
