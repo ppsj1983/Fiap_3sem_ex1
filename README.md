@@ -70,6 +70,19 @@ As tabelas abaixo apresentam as principais doenças, causas e sintomas, dados or
 
 
 ## 📚 Dados Numéricos (IoT)
+Tratando-se de dados numericos, trabalharemos com 3 data frames relacionados a resultados de pesquisa para diagnostico e tratamento de doenças cardiologicas, nesta etapa, a estruturação das informações quantitativas é fundamental para desenvolvimento e treinamento de modelos de IA. Considerando os 3 data frames, temos informações coincidentes, conforme destacado a seguir:
+- *Idade* 
+- *Genero* 
+- *Pressão Arterial*: RestingBP | Ap_hi/Ap_lo | trestbps 
+- *Colesterol*: Cholesterol| Cholesterol  | chol.
+- *Açúcar / Glicose*: FastingBS  | Gluc | fbs .
+- *Diagnóstico Final*: HeartDisease | Cardio  | num / target_binary.
+
+Estruturalmente a combinação dos 3 data frames fornece agrupamento de 4 tipos de informações
+- *Causas e Fatores de Risco (Perfil e Estilo de Vida)*. Exemplo: Dados Demográficos: Idade (Age/age) e Género (Sex/Gender/sex).
+- *Sintomas (Manifestações Clínicas)*. Exemplo: Dor no Peito em Repouso: Tipo de dor torácica (ChestPainType / cp).
+- *Sinais Clínicos e Indicadores de Exames (Investigação)*. Exemplo: Métricas Cardiovasculares: Pressão arterial (RestingBP/Ap_hi/Ap_lo/trestbps) e frequência cardíaca máxima (MaxHR/thalach).
+- *Diagnóstico (Variável Alvo)*. Exemplo:Presença de Doença: Confirmação se o paciente está doente ou saudável (HeartDisease / Cardio / target_binary).
 
 ### *Conjunto de dados para previsão de insuficiência cardíaca (Heart Failure Prediction Dataset)*
 
